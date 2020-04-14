@@ -1,0 +1,54 @@
+
+@media (max-width: 1024px){
+.banner-title {
+    margin-top:137px;
+}
+}
+
+@media (max-width: 991px) {
+    .description-section-para {
+        margin-top: 49px;
+    }
+    .register-button-section {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .profil-button-section{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) { 
+    .banner-title {
+        margin-top: 102px;
+    }
+
+    .description-section-img {
+        margin-top: 47px;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .image{
+        text-align: center;
+    }
+
+    .description-section-para {
+       text-align: center;
+    }
+    .owl-title {
+        text-align: center;
+    }
+    .owl-para{
+        text-align: center;
+    }
+    .contact-section-title {
+        text-align: center;
+    }
+    .contact-form-button {
+        text-align: center;
+    }
+    .fast-contact-info {
+       text-align: center;
+    }
+}

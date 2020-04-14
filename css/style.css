@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    color:#555;
+    line-height: 30px;
+    font-weight: normal;
+    text-align: left;
+  }
+
+  .main-container{
+    max-width: 1362px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden; 
+
+}
+
+.inside-container {
+    max-width: 1169px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*banner section */
+#first-section {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+      background: url(../Images/elearning.png) top center;
+    background-size: cover;
+  }
+  
+  @media (min-width: 1024px) {
+      #first-section {
+          background-attachment: fixed;
+      }
+  }
+
+
+.banner-title{
+    margin-top: 180px;
+    margin-bottom: 50px;
+    font-family:'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 45px;
+    color:rgb(255,255,255);
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 20px;
+   
+}
+
+.register-button{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif; 
+    color: rgb(255,255,255);
+    background-color: #465587;
+    border-color:transparent;
+     border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    letter-spacing: 0.5px;
+    margin-right: 7px;
+    text-transform: uppercase;
+}
+
+.register-button:hover{
+    background-color: #E09FBF;
+}
+
+.profil-button{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif; 
+    color: rgb(255,255,255);
+    background-color: #465587;
+    border-color:transparent;
+     border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:40px;
+    padding-right: 40px;
+    letter-spacing: 0.5px;
+    margin-right: 7px;
+    text-transform: uppercase;
+    
+}
+.profil-button:hover{
+    background-color: #E09FBF;
+}
+
+
+.button-section{
+    text-align: center;
+}
+
+/*Description Section*/
+
+#second-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.description-section-title{
+    font-family: 'Playfair Display', serif; 
+    font-weight: bold;
+    font-size:38px;
+    color: #465587;
+    text-align: center;
+}
+
+.description-section-para{
+    font-family: 'Work Sans', sans-serif ;
+    font-size: 15px;
+    color: rgb(23,23,23);
+    text-align: left;
+    margin-top: 80px;
+}
+
+.description-section-img{
+    max-width: 80%;
+    width:80%;
+    
+}
+
+/*features section*/
+
+#third-section{
+background-color: rgb(246,246,246);
+padding-bottom: 50px;
+}
+
+.features-title{
+    font-family: 'Playfair Display', serif;  
+    font-weight: bold;
+    font-size:38px;
+    color: #37393E;
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.features-paragraph{
+    font-family:  'Work Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(95,95,95);
+    text-align: center;
+    line-height: 27px;
+    margin-bottom: 58px;
+}
+
+.item {
+    background-color: rgb(255,255,255);
+}
+.owl-theme .owl-controls .owl-page span{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: none;
+  border:1px solid #000;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+  background:#888;
+  border:1px solid #888;
+}
+
+.owl-title{
+    font-family: 'Playfair Display', serif ;
+    font-weight: bold;
+    font-size: 20px;
+    color: #87D8F1;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+ 
+}
+
+.owl-para{
+  font-family: 'Work Sans', sans-serif; 
+  font-size: 15px;
+  color: rgb(95,95,95);
+  padding-left: 30px;
+  padding-bottom: 30px;
+  line-height: 25px;
+  
+}
+
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  display: none;
+}
+
+
+
+/*contact section*/
+#fourth-section{
+ margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.contact-section-title{
+    font-family:  'Playfair Display', serif; 
+    font-weight: bold;
+    font-size: 38px;
+    color: #E09FBF;
+    margin-bottom: 30px;
+}
+
+.contact-form-left{
+    margin-bottom: 30px;
+}
+
+.contact-form-col-right{
+    margin-bottom: 30px;
+}
+
+
+.contact-form-center{
+    margin-bottom: 30px;
+}
+
+::placeholder{
+    font-family:  'Work Sans', sans-serif ;
+    font-size: 14px;
+    color: rgb(95,95,95);
+}
+
+.form-control {
+    border-radius:10px;
+    border-color:#E09FBF;
+}
+
+.send-button{
+     color:rgb(255,255,255);
+    background-color: #E09FBF;
+    border-color: transparent;
+    font-family: 'Work Sans', sans-serif ;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.send-button:hover{
+    background-color: #465587;
+}
+.contact-form{
+    margin-top: 11px;
+}
+
+.contact-section-subtitle{
+
+    font-family:  'Playfair Display', serif; 
+    font-weight: bold;
+    font-size: 20px;
+    color: #E09FBF;
+    margin-bottom: 30px;
+}
+
+.contact-section-para{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color:  #E09FBF;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+
+.contact-section-info{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: #E09FBF;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+
+.fast-contact-info{
+    margin-top: 50px;
+}
+
+/*footer section */
+#footer{
+    background-color:#465587 ;
+}
+
+.footer-content{
+    text-align: left;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+.footer-title{
+    font-family:  'Playfair Display', serif;
+    font-weight: 500;
+    font-size:20px;
+    color:rgb(255,255,255);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.footer-para{
+    font-family: 'Playfair Display', serif  ;
+    font-size: 15px;
+    color: rgb(233,233,233);
+}
+
+.features-list{
+    font-family: 'Playfair Display', serif  ;
+    font-size: 15px;
+    color: rgb(233,233,233);
+    list-style: none;
+}
+
+.link{
+    color: rgb(233,233,233);
+}
+
+ .link:hover{
+    text-decoration: none;
+    color: #E09FBF;
+    
+ }
+.footer-copyright{
+    font-family: 'Work Sans', sans-serif  ;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(233,233,233);
+    padding-top: 20px;
+   border-top: 1px solid rgb(233,233,233);
+}
+
